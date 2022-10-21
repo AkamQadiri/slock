@@ -1,0 +1,3 @@
+slock-capscolor-20220921-35633d4.diff
+slock-xresources-20191126-53e56c7.diff
+slock-dpms-1.4.diff
