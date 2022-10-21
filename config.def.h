@@ -13,10 +13,10 @@ static const char *colorname[NUMCOLS] = {
  * Xresources preferences to load at startup
  */
 ResourcePref resources[] = {
-		// { "color0",       STRING,  &colorname[INIT] },
-		{ "color4",       STRING,  &colorname[INPUT] },
-		// { "color1",       STRING,  &colorname[FAILED] },
-		// { "color3",       STRING,  &colorname[CAPS] },
+		// { "init",       STRING,  &colorname[INIT] },
+		{ "input",       STRING,  &colorname[INPUT] },
+		// { "failed",       STRING,  &colorname[FAILED] },
+		// { "caps",       STRING,  &colorname[CAPS] },
 };
 
 /* treat a cleared input like a wrong password (color) */
